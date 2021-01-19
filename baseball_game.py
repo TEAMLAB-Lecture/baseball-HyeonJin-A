@@ -16,11 +16,12 @@ def is_digit(user_input_number):
 
 def is_between_100_and_999(user_input_number):
     num = int(user_input_number)
-    if(num>100 and num<999): return True
+    if(num>=100 and num<=999): return True
     else: return False
 
 
 def is_duplicated_number(three_digit):
+    if (three_digit==100) return True
     num = []
     while(three_digit!=0):
         num.append(three_digit%10)
