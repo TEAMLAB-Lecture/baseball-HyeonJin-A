@@ -21,7 +21,7 @@ def is_between_100_and_999(user_input_number):
 
 
 def is_duplicated_number(three_digit):
-    if (three_digit==100) return True
+    if (three_digit==100): return True
     num = []
     while(three_digit!=0):
         num.append(three_digit%10)
