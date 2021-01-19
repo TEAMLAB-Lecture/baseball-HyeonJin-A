@@ -16,7 +16,7 @@ def is_digit(user_input_number):
 
 def is_between_100_and_999(user_input_number):
     num = int(user_input_number)
-    if(num>=100 and num<1000): return True
+    if(num>100 and num<999): return True
     else: return False
 
 
